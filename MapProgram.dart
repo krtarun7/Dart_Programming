@@ -7,6 +7,8 @@ class Test{
     };
     //add data
     mapdata["Name"]="Tarun";
+    //to remove key
+    mapdata.remove("Name");
     print(mapdata);
     //keys keyword used to show keys
     print(mapdata.keys);
